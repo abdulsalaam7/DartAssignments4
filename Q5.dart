@@ -1,13 +1,10 @@
 void main() {
   int number = 12345;
 
-  int sum = 0;
-
-  while (number > 0) {
-    int digit = number % 10;
-    sum += digit;
-    number = number ~/ 10;
+  while (number <= 5) {
+    number++;
+    number + number;
   }
 
-  print(sum);
+  print(number);
 }
